@@ -55,14 +55,14 @@ describe("StringGame", function () {
 //Q4
 describe("arrayGame", function () {
     it("should return an array if this is negative number", function () {
-        expect(reverseSeq(-5)).toBe([])
+        expect(reverseSeq(-5)).toEqual([])
     });
 
     it("should return an array if this is a string", function () {
-        expect(reverseSeq('hi')).toBe([])
+        expect(reverseSeq('hi')).toEqual([])
     });
 
     it("should return be array in rank from n to 1", function () {
-        expect(reverseSeq(6)).toBe([6, 5, 4, 3, 2, 1 ])
+        expect(reverseSeq(6)).toEqual([6, 5, 4, 3, 2, 1 ])
     });
 })
